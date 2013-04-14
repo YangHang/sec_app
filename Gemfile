@@ -7,6 +7,10 @@ gem 'rails', '3.2.12'
 group :development,:test do
   gem 'rspec-rails'
   gem 'sqlite3'
+
+end
+group :test do
+  gem 'capybara'
 end
 group :production do
   gem 'pg'
